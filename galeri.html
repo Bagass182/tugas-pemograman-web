@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri</title>
+    <style>
+        /* Gaya CSS bisa ditambahkan di sini */
+        body {
+            font-family: Arial, sans-serif;
+            background-color:lightblue;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Galeri Foto</h1>
+    </div>
+    <div class="container">
+        <h2>Selamat datang di galeri kami!</h2>
+        <div class="gallery">
+            <img src="blink.jpg" alt="Foto 1">
+            <img src="logo album blink.jpg" alt="Foto 2">
+            <img src="mm.jpg" alt="Foto 3">
+        </div>
+    </div>
+</body>
+</html>
